@@ -1,12 +1,18 @@
-StringCalculator.java:5: error: cannot find symbol
-        List<String> numbers = parser.parse(string);
-                                     ^
-  symbol:   method parse(String)
-  location: variable parser of type StringCalculatorParser
+StringCalculatorParser.java:2: error: cannot find symbol
+    List<String> parse(String string);
+    ^
+  symbol:   class List
+  location: interface StringCalculatorParser
+ParserWithCustomizedDelimiter.java:1: error: ParserWithCustomizedDelimiter is not abstract and does not override abstract method parse(String) in StringCalculatorParser
+public class ParserWithCustomizedDelimiter implements StringCalculatorParser {
+       ^
+ParserWithDelimiterNewLineOrComma.java:1: error: ParserWithDelimiterNewLineOrComma is not abstract and does not override abstract method parse(String) in StringCalculatorParser
+public class ParserWithDelimiterNewLineOrComma implements StringCalculatorParser {
+       ^
 StringCalculatorTest.java:8: error: method add in class StringCalculator cannot be applied to given types;
         assertEquals(0, StringCalculator.add(""));
                                         ^
   required: String,StringCalculatorParser
   found: String
   reason: actual and formal argument lists differ in length
-2 errors
+4 errors
