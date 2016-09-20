@@ -1,11 +1,10 @@
 public class StringCalculator {
     static int add(String string) {
-        if (string.length() > 1) {
-            return 3;
+        List<int> numbers = StringToIntParser.parse(string);
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
         }
-        if (string.length() == 1) {
-            return Integer.parseInt(string);
-        }
-        return 0;
     }
 }
+
