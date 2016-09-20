@@ -27,6 +27,11 @@ public class StringCalculatorTest {
     public void should_use_newlines_between_numbers_in_addition_to_commas() {
         assertEquals(6, StringCalculator.add("1\n2,3"));
     }
+
+    @Test
+    public void should_use_different_delimiters() {
+        assertEquals(3, StringCalculator.add("//;\n1;2", parserWithCustomizedDelimiter));
+    }
 }
 
 
