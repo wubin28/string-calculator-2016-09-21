@@ -1,6 +1,6 @@
 StringCalculator.java:5: error: cannot find symbol
         List<String> numbers = StringToIntParser.parse(string);
-                               ^
-  symbol:   variable StringToIntParser
-  location: class StringCalculator
+                                                ^
+  symbol:   method parse(String)
+  location: class StringToIntParser
 1 error
