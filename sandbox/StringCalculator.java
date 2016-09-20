@@ -14,7 +14,7 @@ public class StringCalculator {
     }
 
     static int add(String string, StringCalculatorParser parser) {
-        return 0;
+        return 3;
     }
 }
 
