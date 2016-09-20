@@ -10,6 +10,6 @@ public class StringCalculatorTest {
 
     @Test
     public void the_result_of_one_number_is_itself() {
-        assertEquals(1, StringCalculator.add("1");
+        assertEquals(1, StringCalculator.add("1"));
     }
 }
