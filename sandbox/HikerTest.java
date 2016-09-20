@@ -4,9 +4,7 @@ import static org.junit.Assert.*;
 public class HikerTest {
 
     @Test
-    public void life_the_universe_and_everything() {
-        int expected = 42;
-        int actual = Hiker.answer();
-        assertEquals(expected, actual);
+    public void the_result_of_empty_string_is_0() {
+        assertEquals(0, StringCalculator.add(""));
     }
 }
