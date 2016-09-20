@@ -1,16 +1,11 @@
-StringCalculator.java:3: error: cannot find symbol
-        List<int> numbers = StringToIntParser.parse(string);
-        ^
-  symbol:   class List
-  location: class StringCalculator
-StringCalculator.java:3: error: unexpected type
+StringCalculator.java:5: error: unexpected type
         List<int> numbers = StringToIntParser.parse(string);
              ^
   required: reference
   found:    int
-StringCalculator.java:3: error: cannot find symbol
+StringCalculator.java:5: error: cannot find symbol
         List<int> numbers = StringToIntParser.parse(string);
                             ^
   symbol:   variable StringToIntParser
   location: class StringCalculator
-3 errors
+2 errors
