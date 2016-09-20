@@ -1,8 +1,8 @@
-ParserWithCustomizedDelimiter.java:4: error: parse(String) in ParserWithCustomizedDelimiter cannot implement parse(String) in StringCalculatorParser
+ParserWithCustomizedDelimiter.java:5: error: parse(String) in ParserWithCustomizedDelimiter cannot implement parse(String) in StringCalculatorParser
     List<String> parse(String string) {
                  ^
   attempting to assign weaker access privileges; was public
-ParserWithCustomizedDelimiter.java:5: error: cannot find symbol
+ParserWithCustomizedDelimiter.java:6: error: cannot find symbol
         return Arrays.asList(string.substring(4).split("\\s*" + string.substring(2, 3) + "\\s*"));
                ^
   symbol:   variable Arrays
