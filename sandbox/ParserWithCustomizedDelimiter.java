@@ -1,2 +1,2 @@
-public class ParserWithCustomizedDelimiter implement StringCalculatorParser {
+public class ParserWithCustomizedDelimiter implements StringCalculatorParser {
 }
