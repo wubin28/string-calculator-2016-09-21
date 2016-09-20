@@ -1,6 +1,6 @@
 HikerTest.java:8: error: cannot find symbol
         assertEquals(0, StringCalculator.add(""));
-                        ^
-  symbol:   variable StringCalculator
-  location: class HikerTest
+                                        ^
+  symbol:   method add(String)
+  location: class StringCalculator
 1 error
