@@ -22,6 +22,11 @@ public class StringCalculatorTest {
     public void the_result_of_unknown_amount_of_numbers_separated_by_commas_is_the_sum_of_them() {
         assertEquals(6, StringCalculator.add("1,2,3"));
     }
+
+    @Test
+    public void should_use_newlines_between_numbers_in_addition_to_commas() {
+        assertEquals(6, StringCalculator.add("1\n2,3"));
+    }
 }
 
 
