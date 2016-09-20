@@ -1,6 +1,11 @@
 StringCalculatorTest.java:33: error: cannot find symbol
-        assertEquals(3, StringCalculator.add("//;\n1;2", parserWithCustomizedDelimiter));
-                                                         ^
-  symbol:   variable parserWithCustomizedDelimiter
+        StringCalculatorParser parserWithCustomizedDelimiter = 
+        ^
+  symbol:   class StringCalculatorParser
   location: class StringCalculatorTest
-1 error
+StringCalculatorTest.java:34: error: cannot find symbol
+            new ParserWithCustomizedDelimiter();
+                ^
+  symbol:   class ParserWithCustomizedDelimiter
+  location: class StringCalculatorTest
+2 errors

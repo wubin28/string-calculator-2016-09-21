@@ -30,6 +30,8 @@ public class StringCalculatorTest {
 
     @Test
     public void should_use_different_delimiters() {
+        StringCalculatorParser parserWithCustomizedDelimiter = 
+            new ParserWithCustomizedDelimiter();
         assertEquals(3, StringCalculator.add("//;\n1;2", parserWithCustomizedDelimiter));
     }
 }
