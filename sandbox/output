@@ -1,6 +1,14 @@
-StringToIntParser.java:5: error: cannot find symbol
-        return Arrays.asList(string.split("\\s*,\\s*"));
-               ^
-  symbol:   variable Arrays
-  location: class StringToIntParser
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+..E.
+Time: 0.008
+There was 1 failure:
+1) the_result_of_empty_string_is_0(StringCalculatorTest)
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at StringCalculator.add(StringCalculator.java:8)
+	at StringCalculatorTest.the_result_of_empty_string_is_0(StringCalculatorTest.java:8)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
