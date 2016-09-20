@@ -1,6 +1,9 @@
-StringCalculator.java:5: error: cannot find symbol
+StringToIntParser.java:2: error: cannot find symbol
+    List<String> parse(String string) {
+    ^
+  symbol:   class List
+  location: class StringToIntParser
+StringCalculator.java:5: error: non-static method parse(String) cannot be referenced from a static context
         List<String> numbers = StringToIntParser.parse(string);
                                                 ^
-  symbol:   method parse(String)
-  location: class StringToIntParser
-1 error
+2 errors
