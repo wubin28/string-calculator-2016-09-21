@@ -12,5 +12,9 @@ public class StringCalculator {
         }
         return sum;
     }
+
+    static int add(String string, StringCalculatorParser parser) {
+        return 0;
+    }
 }
 
