@@ -2,10 +2,10 @@ import java.util.List;
 
 public class StringCalculator {
     static int add(String string) {
-        List<int> numbers = StringToIntParser.parse(string);
+        List<String> numbers = StringToIntParser.parse(string);
         int sum = 0;
-        for (int number : numbers) {
-            sum += number;
+        for (String number : numbers) {
+            sum += Integer.parseInt(number);
         }
     }
 }
