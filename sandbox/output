@@ -1,21 +1,16 @@
-StringCalculatorTest.java:14: error: cannot find symbol
-            new ParserWithDelimiterNewLineOrComma();
-                ^
-  symbol:   class ParserWithDelimiterNewLineOrComma
-  location: class StringCalculatorTest
-StringCalculatorTest.java:21: error: cannot find symbol
-            new ParserWithDelimiterNewLineOrComma();
-                ^
-  symbol:   class ParserWithDelimiterNewLineOrComma
-  location: class StringCalculatorTest
-StringCalculatorTest.java:28: error: cannot find symbol
-            new ParserWithDelimiterNewLineOrComma();
-                ^
-  symbol:   class ParserWithDelimiterNewLineOrComma
-  location: class StringCalculatorTest
-StringCalculatorTest.java:35: error: cannot find symbol
-            new ParserWithDelimiterNewLineOrComma();
-                ^
-  symbol:   class ParserWithDelimiterNewLineOrComma
-  location: class StringCalculatorTest
-4 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+....E.E.E
+Time: 0.009
+There were 3 failures:
+1) the_result_of_unknown_amount_of_numbers_separated_by_commas_is_the_sum_of_them(StringCalculatorTest)
+java.lang.AssertionError: expected:<6> but was:<3>
+	at StringCalculatorTest.the_result_of_unknown_amount_of_numbers_separated_by_commas_is_the_sum_of_them(StringCalculatorTest.java:29)
+2) the_result_of_one_number_is_itself(StringCalculatorTest)
+java.lang.AssertionError: expected:<1> but was:<3>
+	at StringCalculatorTest.the_result_of_one_number_is_itself(StringCalculatorTest.java:15)
+3) should_use_newlines_between_numbers_in_addition_to_commas(StringCalculatorTest)
+java.lang.AssertionError: expected:<6> but was:<3>
+	at StringCalculatorTest.should_use_newlines_between_numbers_in_addition_to_commas(StringCalculatorTest.java:36)
+
+FAILURES!!!
+Tests run: 6,  Failures: 3
