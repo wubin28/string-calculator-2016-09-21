@@ -1,0 +1,2 @@
+public class ParserWithCustomizedDelimiter implement StringCalculatorParser {
+}
