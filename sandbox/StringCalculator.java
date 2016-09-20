@@ -7,6 +7,7 @@ public class StringCalculator {
         for (String number : numbers) {
             sum += Integer.parseInt(number);
         }
+        return sum;
     }
 }
 
