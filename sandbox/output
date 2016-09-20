@@ -1,6 +1,5 @@
-HikerTest.java:8: error: cannot find symbol
-        assertEquals(0, StringCalculator.add(""));
-                                        ^
-  symbol:   method add(String)
-  location: class StringCalculator
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.
+Time: 0.004
+
+OK (1 test)
