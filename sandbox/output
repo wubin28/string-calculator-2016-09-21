@@ -1,13 +1,8 @@
-ParserWithCustomizedDelimiter.java:2: error: cannot find symbol
-    List<String> parse(String string) {
-    ^
-  symbol:   class List
-  location: class ParserWithCustomizedDelimiter
-ParserWithCustomizedDelimiter.java:2: error: parse(String) in ParserWithCustomizedDelimiter cannot implement parse(String) in StringCalculatorParser
+ParserWithCustomizedDelimiter.java:4: error: parse(String) in ParserWithCustomizedDelimiter cannot implement parse(String) in StringCalculatorParser
     List<String> parse(String string) {
                  ^
   attempting to assign weaker access privileges; was public
-ParserWithCustomizedDelimiter.java:3: error: cannot find symbol
+ParserWithCustomizedDelimiter.java:5: error: cannot find symbol
         return Arrays.asList(string.substring(4).split("\\s*" + string.substring(2, 3) + "\\s*"));
                ^
   symbol:   variable Arrays
@@ -21,4 +16,4 @@ StringCalculatorTest.java:8: error: method add in class StringCalculator cannot 
   required: String,StringCalculatorParser
   found: String
   reason: actual and formal argument lists differ in length
-5 errors
+4 errors
