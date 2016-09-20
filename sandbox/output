@@ -1,4 +1,4 @@
-StringCalculator.java:5: error: non-static method parse(String) cannot be referenced from a static context
-        List<String> numbers = StringToIntParser.parse(string);
-                                                ^
+StringCalculator.java:10: error: missing return statement
+    }
+    ^
 1 error
